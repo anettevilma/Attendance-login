@@ -34,7 +34,7 @@ class App extends React.Component {
    })
    .then(response => response.json())
    .then(response => {
-     console.log(response.validuser)
+     console.log(response)
      validuser=response.validuser;
      if(validuser)
      {
